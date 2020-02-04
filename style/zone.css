@@ -1,0 +1,290 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23-Jan-2020, 11:05:52
+    Author     : User
+*/
+
+.zone1 .button {
+  background-color: #3399ff; 
+  border: 1px solid white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 12em;
+  display: block;
+
+}
+
+.zone1 .button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+.zone1 .button:hover {
+  background-color: #3366ff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.zone2 .button2 {
+  background-color: #3399ff; /* Green */
+  border: 1px solid white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 12em;
+  display: block;
+
+}
+
+.zone2 .button2:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+.zone2 .button2:hover {
+  background-color: #3366ff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+.zone2
+{
+    margin-left: 50%;
+    margin-top: -49.3%;
+    
+}
+.zone1
+{
+    margin-left: 30%;
+    /*margin-top: -38%;*/
+    
+}
+
+.button3
+{
+  background-color: #3399ff;
+  border: 1px solid white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 12em;
+  display: block;
+  margin-left: 80%
+    
+}
+
+.button3:not(:last-child) 
+{
+  border-bottom: none;
+}
+
+.button3:hover
+{
+     background-color: #3366ff;
+     
+     
+}
+
+.title1
+{
+    margin-left: 4.5em; 
+}
+
+.title2
+{
+    margin-left: 4.5em; 
+
+}
+
+.zones {
+  	width: 80em;
+  	background-color: #ffffff;
+  	box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+  	margin: 100px auto;
+        padding-bottom: 20px;
+        padding-top: 5px;
+}
+.zones h1
+{
+    text-align: center;
+    border-bottom: 1px solid #435165;
+}
+
+
+/*.company
+{
+    margin-left: 42%;
+}*/
+
+.sentence
+{
+    margin-left: 31%;
+}
+
+body {
+  	background-color: #435165;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #3399ff;
+}
+
+.active {
+  background-color: #3366ff;
+}
+
+#logo
+{
+ margin-top: 10px;
+ margin-left: 5px;
+}
+
+.dropbtn {
+  background-color: #3399ff;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 12em;
+  
+  
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 5em;
+/*  margin-top: 7em;*/
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  
+}
+
+/* Links inside the dropdown */
+.dropdown-content input {
+  background-color: #3399ff; 
+  border: 1px solid white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 12em;
+  display: block;
+  
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content input:hover {background-color: #3366ff}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3366ff;
+}
+
+
+.dropbtn2 {
+  background-color: #3399ff;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 12em;
+  
+  
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+  margin-left: 62em;
+    margin-top: -10em;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  
+}
+
+/* Links inside the dropdown */
+.dropdown-content2 input {
+  background-color: #3399ff; 
+  border: 1px solid white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 12em;
+  display: block;
+  
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content2 input:hover {background-color: #3366ff}
+
+/* Show the dropdown menu on hover */
+.dropdown2:hover .dropdown-content2 {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown2:hover .dropbtn2 {
+  background-color: #3366ff;
+}

@@ -1,0 +1,8 @@
+{
+    "require": {
+        "twilio/sdk": "^5.42",
+        "nexmo/client": "^2.0",
+        "messagebird/php-rest-api": "^1.16",
+        "telesign/telesign": "^2.2"
+    }
+}
